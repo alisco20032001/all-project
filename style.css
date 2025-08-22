@@ -1,0 +1,25 @@
+*{
+  background: burlywood;
+  padding: auto;
+
+}
+p{
+  text-align: center;
+  margin-block: 12px;
+
+}
+.writeup{
+  margin: 10px;
+  padding: 3px;
+}
+.workhard-jpeg{
+  border-radius: 25px;
+  height: 100px;
+  width: 100px;
+  padding: 3px 12px;
+
+}
+.comments-section{
+  display: flex;
+  cursor: pointer;
+}
