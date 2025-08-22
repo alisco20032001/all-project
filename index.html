@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Contact Form</title>
+</head>
+<body>
+  <h2>Contact us</h2>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Alice Adepitan">
+    
+    <label for="email" class="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="alisco20032001@gmail.com" class="email-address">
+    
+    <div>
+      <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" placeholder="I want to apply for web design. How much will it cost"></textarea>
+
+    </div>
+    <div>
+      <select name="myDropdown" id="myDropdown">
+         <option value="option1">General</option>
+         <option value="option1">Support</option>
+         <option value="option1">Sales</option>
+      </select>
+    </div>
+  
+    <form class="contact-method">
+  
+
+  <fieldset>
+  <legend>Preferred contact method</legend>
+  <input type="radio" id="contactEmail" name="contactMethod" value="Email">
+  <label for="contactEmail">Email</label><br>
+
+  <input type="radio" id="contactPhone" name="contactMethod" value="Phone">
+  <label for="contactPhone">Phone</label><br>
+
+  <input type="radio" id="contactSms" name="contactMethod" value="SMS">
+  <label for="contactSms">SMS</label>
+</fieldset>
+</form>
+    <button type="submit" class="submit-btn">Submit</button>
+  
+  
+</body>
+</html>

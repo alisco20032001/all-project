@@ -1,25 +1,28 @@
 *{
-  background: burlywood;
-  padding: auto;
+  margin: 2px;
+  padding: 2px;
+  background: rgb(217, 229, 194);
+  color: blue
+}
 
+.email{
+  margin-left: 20px;
 }
-p{
-  text-align: center;
-  margin-block: 12px;
-
+.email-address{
+  
+  padding-right: 20px;
+  
 }
-.writeup{
-  margin: 10px;
-  padding: 3px;
-}
-.workhard-jpeg{
-  border-radius: 25px;
-  height: 100px;
-  width: 100px;
-  padding: 3px 12px;
-
-}
-.comments-section{
-  display: flex;
+.submit-btn{
   cursor: pointer;
+  display: flex;
+  padding: 2px 6px;
+}
+
+.contact-method{
+  padding: 12px 15px;
+  width: 10px;
+  height: 10px;
+  padding: 22px;
+  background: blanchedalmond;
 }
